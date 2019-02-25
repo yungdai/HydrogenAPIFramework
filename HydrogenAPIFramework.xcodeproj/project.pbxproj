@@ -10,6 +10,24 @@
 		1A3337DE2223680100EE933D /* HydrogenAPIFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3337D42223680100EE933D /* HydrogenAPIFramework.framework */; };
 		1A3337E32223680100EE933D /* HydrogenAPIFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3337E22223680100EE933D /* HydrogenAPIFrameworkTests.swift */; };
 		1A3337E52223680100EE933D /* HydrogenAPIFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A3337D72223680100EE933D /* HydrogenAPIFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AE45E5F22236AF50000A7A1 /* HydrogenAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E5E22236AF50000A7A1 /* HydrogenAPIManager.swift */; };
+		1AE45E7D22236B460000A7A1 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E7C22236B460000A7A1 /* Utility.swift */; };
+		1AE45E7F22236B4C0000A7A1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E7E22236B4C0000A7A1 /* Extensions.swift */; };
+		1AE45E8022236B670000A7A1 /* NetworkServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E7822236B3E0000A7A1 /* NetworkServiceError.swift */; };
+		1AE45E8122236B670000A7A1 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E7922236B3E0000A7A1 /* Result.swift */; };
+		1AE45E8222236B670000A7A1 /* HydrogenToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E7622236B2C0000A7A1 /* HydrogenToken.swift */; };
+		1AE45E8322236C1E0000A7A1 /* RatioTargets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E6122236B1D0000A7A1 /* RatioTargets.swift */; };
+		1AE45E8422236C220000A7A1 /* AssetAllocationRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E6322236B1D0000A7A1 /* AssetAllocationRatio.swift */; };
+		1AE45E8522236C260000A7A1 /* SavingsRatioNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E6422236B1D0000A7A1 /* SavingsRatioNet.swift */; };
+		1AE45E8622236C260000A7A1 /* RatioResultsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E6522236B1D0000A7A1 /* RatioResultsProtocol.swift */; };
+		1AE45E8722236C260000A7A1 /* SavingsRatioGross.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E6622236B1D0000A7A1 /* SavingsRatioGross.swift */; };
+		1AE45E8822236C260000A7A1 /* CurrentRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E6722236B1D0000A7A1 /* CurrentRatio.swift */; };
+		1AE45E8922236C320000A7A1 /* FHCheckResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E6822236B1D0000A7A1 /* FHCheckResponse.swift */; };
+		1AE45E8A22236C320000A7A1 /* LiquidityRatioExpenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E6922236B1D0000A7A1 /* LiquidityRatioExpenses.swift */; };
+		1AE45E8B22236C320000A7A1 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E6A22236B1D0000A7A1 /* Account.swift */; };
+		1AE45E8C22236C320000A7A1 /* LiquidityRatioLiabilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E6B22236B1D0000A7A1 /* LiquidityRatioLiabilities.swift */; };
+		1AE45E8F22236CA70000A7A1 /* FinancialHealthCheckData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E8E22236CA70000A7A1 /* FinancialHealthCheckData.swift */; };
+		1AE45E9022236D480000A7A1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A3337E42223680100EE933D /* Info.plist */; };
 		41E737AFC828260A8F6E7EBB /* Pods_HydrogenAPIFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D0FC2BA42E6355481F279A1 /* Pods_HydrogenAPIFrameworkTests.framework */; };
 		977CBA072A6FA61BC0C44B06 /* Pods_HydrogenAPIFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0006B026401A13A6FB903CA /* Pods_HydrogenAPIFramework.framework */; };
 /* End PBXBuildFile section */
@@ -31,6 +49,23 @@
 		1A3337DD2223680100EE933D /* HydrogenAPIFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydrogenAPIFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3337E22223680100EE933D /* HydrogenAPIFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrogenAPIFrameworkTests.swift; sourceTree = "<group>"; };
 		1A3337E42223680100EE933D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AE45E5E22236AF50000A7A1 /* HydrogenAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrogenAPIManager.swift; sourceTree = "<group>"; };
+		1AE45E6122236B1D0000A7A1 /* RatioTargets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatioTargets.swift; sourceTree = "<group>"; };
+		1AE45E6322236B1D0000A7A1 /* AssetAllocationRatio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetAllocationRatio.swift; sourceTree = "<group>"; };
+		1AE45E6422236B1D0000A7A1 /* SavingsRatioNet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavingsRatioNet.swift; sourceTree = "<group>"; };
+		1AE45E6522236B1D0000A7A1 /* RatioResultsProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatioResultsProtocol.swift; sourceTree = "<group>"; };
+		1AE45E6622236B1D0000A7A1 /* SavingsRatioGross.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavingsRatioGross.swift; sourceTree = "<group>"; };
+		1AE45E6722236B1D0000A7A1 /* CurrentRatio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentRatio.swift; sourceTree = "<group>"; };
+		1AE45E6822236B1D0000A7A1 /* FHCheckResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHCheckResponse.swift; sourceTree = "<group>"; };
+		1AE45E6922236B1D0000A7A1 /* LiquidityRatioExpenses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiquidityRatioExpenses.swift; sourceTree = "<group>"; };
+		1AE45E6A22236B1D0000A7A1 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		1AE45E6B22236B1D0000A7A1 /* LiquidityRatioLiabilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiquidityRatioLiabilities.swift; sourceTree = "<group>"; };
+		1AE45E7622236B2C0000A7A1 /* HydrogenToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HydrogenToken.swift; sourceTree = "<group>"; };
+		1AE45E7822236B3E0000A7A1 /* NetworkServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkServiceError.swift; sourceTree = "<group>"; };
+		1AE45E7922236B3E0000A7A1 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		1AE45E7C22236B460000A7A1 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		1AE45E7E22236B4C0000A7A1 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1AE45E8E22236CA70000A7A1 /* FinancialHealthCheckData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialHealthCheckData.swift; sourceTree = "<group>"; };
 		4B3CEE7C4A805FAA33004437 /* Pods-HydrogenAPIFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydrogenAPIFramework.debug.xcconfig"; path = "Target Support Files/Pods-HydrogenAPIFramework/Pods-HydrogenAPIFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		56AE458AA437A91C60224C25 /* Pods-HydrogenAPIFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydrogenAPIFrameworkTests.release.xcconfig"; path = "Target Support Files/Pods-HydrogenAPIFrameworkTests/Pods-HydrogenAPIFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
 		6D0FC2BA42E6355481F279A1 /* Pods_HydrogenAPIFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HydrogenAPIFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,8 +127,12 @@
 		1A3337D62223680100EE933D /* HydrogenAPIFramework */ = {
 			isa = PBXGroup;
 			children = (
+				1AE45E9122236E120000A7A1 /* Networking */,
+				1AE45E6022236B1D0000A7A1 /* Models */,
+				1AE45E7E22236B4C0000A7A1 /* Extensions.swift */,
 				1A3337D72223680100EE933D /* HydrogenAPIFramework.h */,
 				1A3337D82223680100EE933D /* Info.plist */,
+				1AE45E7C22236B460000A7A1 /* Utility.swift */,
 			);
 			path = HydrogenAPIFramework;
 			sourceTree = "<group>";
@@ -107,6 +146,43 @@
 			path = HydrogenAPIFrameworkTests;
 			sourceTree = "<group>";
 		};
+		1AE45E6022236B1D0000A7A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1AE45E6222236B1D0000A7A1 /* Ratio Results Models */,
+				1AE45E6122236B1D0000A7A1 /* RatioTargets.swift */,
+				1AE45E8E22236CA70000A7A1 /* FinancialHealthCheckData.swift */,
+				1AE45E6822236B1D0000A7A1 /* FHCheckResponse.swift */,
+				1AE45E6A22236B1D0000A7A1 /* Account.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1AE45E6222236B1D0000A7A1 /* Ratio Results Models */ = {
+			isa = PBXGroup;
+			children = (
+				1AE45E6B22236B1D0000A7A1 /* LiquidityRatioLiabilities.swift */,
+				1AE45E6922236B1D0000A7A1 /* LiquidityRatioExpenses.swift */,
+				1AE45E6322236B1D0000A7A1 /* AssetAllocationRatio.swift */,
+				1AE45E6422236B1D0000A7A1 /* SavingsRatioNet.swift */,
+				1AE45E6522236B1D0000A7A1 /* RatioResultsProtocol.swift */,
+				1AE45E6622236B1D0000A7A1 /* SavingsRatioGross.swift */,
+				1AE45E6722236B1D0000A7A1 /* CurrentRatio.swift */,
+			);
+			path = "Ratio Results Models";
+			sourceTree = "<group>";
+		};
+		1AE45E9122236E120000A7A1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1AE45E5E22236AF50000A7A1 /* HydrogenAPIManager.swift */,
+				1AE45E7822236B3E0000A7A1 /* NetworkServiceError.swift */,
+				1AE45E7922236B3E0000A7A1 /* Result.swift */,
+				1AE45E7622236B2C0000A7A1 /* HydrogenToken.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		A45BB563469DF4A79CC401B0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,7 +191,6 @@
 				928EC34EAC352A6103430889 /* Pods-HydrogenAPIFrameworkTests.debug.xcconfig */,
 				56AE458AA437A91C60224C25 /* Pods-HydrogenAPIFrameworkTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -184,6 +259,7 @@
 				TargetAttributes = {
 					1A3337D32223680100EE933D = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					1A3337DC2223680100EE933D = {
 						CreatedOnToolsVersion = 10.1;
@@ -220,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AE45E9022236D480000A7A1 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +378,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AE45E7D22236B460000A7A1 /* Utility.swift in Sources */,
+				1AE45E8722236C260000A7A1 /* SavingsRatioGross.swift in Sources */,
+				1AE45E8C22236C320000A7A1 /* LiquidityRatioLiabilities.swift in Sources */,
+				1AE45E8F22236CA70000A7A1 /* FinancialHealthCheckData.swift in Sources */,
+				1AE45E8222236B670000A7A1 /* HydrogenToken.swift in Sources */,
+				1AE45E8622236C260000A7A1 /* RatioResultsProtocol.swift in Sources */,
+				1AE45E8422236C220000A7A1 /* AssetAllocationRatio.swift in Sources */,
+				1AE45E8B22236C320000A7A1 /* Account.swift in Sources */,
+				1AE45E8122236B670000A7A1 /* Result.swift in Sources */,
+				1AE45E8022236B670000A7A1 /* NetworkServiceError.swift in Sources */,
+				1AE45E8922236C320000A7A1 /* FHCheckResponse.swift in Sources */,
+				1AE45E8322236C1E0000A7A1 /* RatioTargets.swift in Sources */,
+				1AE45E8A22236C320000A7A1 /* LiquidityRatioExpenses.swift in Sources */,
+				1AE45E8522236C260000A7A1 /* SavingsRatioNet.swift in Sources */,
+				1AE45E7F22236B4C0000A7A1 /* Extensions.swift in Sources */,
+				1AE45E5F22236AF50000A7A1 /* HydrogenAPIManager.swift in Sources */,
+				1AE45E8822236C260000A7A1 /* CurrentRatio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +543,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4B3CEE7C4A805FAA33004437 /* Pods-HydrogenAPIFramework.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -466,6 +561,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yungdai.com.HydrogenAPIFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -475,6 +571,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 994AAAB83275260137EB4AEE /* Pods-HydrogenAPIFramework.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -501,6 +598,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 928EC34EAC352A6103430889 /* Pods-HydrogenAPIFrameworkTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W9YJQYCY2W;
 				INFOPLIST_FILE = HydrogenAPIFrameworkTests/Info.plist;
@@ -520,6 +618,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 56AE458AA437A91C60224C25 /* Pods-HydrogenAPIFrameworkTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W9YJQYCY2W;
 				INFOPLIST_FILE = HydrogenAPIFrameworkTests/Info.plist;
