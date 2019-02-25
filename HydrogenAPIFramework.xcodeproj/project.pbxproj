@@ -10,6 +10,8 @@
 		1A3337DE2223680100EE933D /* HydrogenAPIFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3337D42223680100EE933D /* HydrogenAPIFramework.framework */; };
 		1A3337E32223680100EE933D /* HydrogenAPIFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3337E22223680100EE933D /* HydrogenAPIFrameworkTests.swift */; };
 		1A3337E52223680100EE933D /* HydrogenAPIFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A3337D72223680100EE933D /* HydrogenAPIFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41E737AFC828260A8F6E7EBB /* Pods_HydrogenAPIFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D0FC2BA42E6355481F279A1 /* Pods_HydrogenAPIFrameworkTests.framework */; };
+		977CBA072A6FA61BC0C44B06 /* Pods_HydrogenAPIFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0006B026401A13A6FB903CA /* Pods_HydrogenAPIFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,12 @@
 		1A3337DD2223680100EE933D /* HydrogenAPIFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydrogenAPIFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3337E22223680100EE933D /* HydrogenAPIFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrogenAPIFrameworkTests.swift; sourceTree = "<group>"; };
 		1A3337E42223680100EE933D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B3CEE7C4A805FAA33004437 /* Pods-HydrogenAPIFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydrogenAPIFramework.debug.xcconfig"; path = "Target Support Files/Pods-HydrogenAPIFramework/Pods-HydrogenAPIFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		56AE458AA437A91C60224C25 /* Pods-HydrogenAPIFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydrogenAPIFrameworkTests.release.xcconfig"; path = "Target Support Files/Pods-HydrogenAPIFrameworkTests/Pods-HydrogenAPIFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		6D0FC2BA42E6355481F279A1 /* Pods_HydrogenAPIFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HydrogenAPIFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		928EC34EAC352A6103430889 /* Pods-HydrogenAPIFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydrogenAPIFrameworkTests.debug.xcconfig"; path = "Target Support Files/Pods-HydrogenAPIFrameworkTests/Pods-HydrogenAPIFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		994AAAB83275260137EB4AEE /* Pods-HydrogenAPIFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydrogenAPIFramework.release.xcconfig"; path = "Target Support Files/Pods-HydrogenAPIFramework/Pods-HydrogenAPIFramework.release.xcconfig"; sourceTree = "<group>"; };
+		B0006B026401A13A6FB903CA /* Pods_HydrogenAPIFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HydrogenAPIFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				977CBA072A6FA61BC0C44B06 /* Pods_HydrogenAPIFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +53,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A3337DE2223680100EE933D /* HydrogenAPIFramework.framework in Frameworks */,
+				41E737AFC828260A8F6E7EBB /* Pods_HydrogenAPIFrameworkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C7D8017430EFC0DCB73FDC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0006B026401A13A6FB903CA /* Pods_HydrogenAPIFramework.framework */,
+				6D0FC2BA42E6355481F279A1 /* Pods_HydrogenAPIFrameworkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1A3337CA2223680100EE933D = {
 			isa = PBXGroup;
 			children = (
 				1A3337D62223680100EE933D /* HydrogenAPIFramework */,
 				1A3337E12223680100EE933D /* HydrogenAPIFrameworkTests */,
 				1A3337D52223680100EE933D /* Products */,
+				A45BB563469DF4A79CC401B0 /* Pods */,
+				0C7D8017430EFC0DCB73FDC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +107,18 @@
 			path = HydrogenAPIFrameworkTests;
 			sourceTree = "<group>";
 		};
+		A45BB563469DF4A79CC401B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B3CEE7C4A805FAA33004437 /* Pods-HydrogenAPIFramework.debug.xcconfig */,
+				994AAAB83275260137EB4AEE /* Pods-HydrogenAPIFramework.release.xcconfig */,
+				928EC34EAC352A6103430889 /* Pods-HydrogenAPIFrameworkTests.debug.xcconfig */,
+				56AE458AA437A91C60224C25 /* Pods-HydrogenAPIFrameworkTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -104,6 +137,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A3337E82223680100EE933D /* Build configuration list for PBXNativeTarget "HydrogenAPIFramework" */;
 			buildPhases = (
+				9A03556C1D6E8447FE5E825C /* [CP] Check Pods Manifest.lock */,
 				1A3337CF2223680100EE933D /* Headers */,
 				1A3337D02223680100EE933D /* Sources */,
 				1A3337D12223680100EE933D /* Frameworks */,
@@ -122,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A3337EB2223680100EE933D /* Build configuration list for PBXNativeTarget "HydrogenAPIFrameworkTests" */;
 			buildPhases = (
+				8F37AF94871B55C7005F1BC4 /* [CP] Check Pods Manifest.lock */,
 				1A3337D92223680100EE933D /* Sources */,
 				1A3337DA2223680100EE933D /* Frameworks */,
 				1A3337DB2223680100EE933D /* Resources */,
+				40354D32D98F4485C7C8E4A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,6 +224,77 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40354D32D98F4485C7C8E4A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HydrogenAPIFrameworkTests/Pods-HydrogenAPIFrameworkTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HydrogenAPIFrameworkTests/Pods-HydrogenAPIFrameworkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F37AF94871B55C7005F1BC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HydrogenAPIFrameworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A03556C1D6E8447FE5E825C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HydrogenAPIFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1A3337D02223680100EE933D /* Sources */ = {
@@ -340,6 +447,7 @@
 		};
 		1A3337E92223680100EE933D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B3CEE7C4A805FAA33004437 /* Pods-HydrogenAPIFramework.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -365,6 +473,7 @@
 		};
 		1A3337EA2223680100EE933D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994AAAB83275260137EB4AEE /* Pods-HydrogenAPIFramework.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -390,6 +499,7 @@
 		};
 		1A3337EC2223680100EE933D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 928EC34EAC352A6103430889 /* Pods-HydrogenAPIFrameworkTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W9YJQYCY2W;
@@ -408,6 +518,7 @@
 		};
 		1A3337ED2223680100EE933D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56AE458AA437A91C60224C25 /* Pods-HydrogenAPIFrameworkTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W9YJQYCY2W;
