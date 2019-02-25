@@ -1,5 +1,5 @@
 # HydrogenAPIFramework
-Hydrogen API Framework for Swift 4.0
+Hydrogen API Framework for Swift 4.2
 
 This is a small framework for personal use to use the Hydrogen API. 
 To use this API, you just you just have to add it to your project, instantiate the HydrogenManger to run it's functions
