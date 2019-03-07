@@ -8,11 +8,11 @@
 
 import Foundation
 
-struct Account: Codable {
+public struct Account: Codable {
 	
-	let id: String
-	let mask: Int
-	let name: String
-	let subtype: String
-	let type: String
+	public let id: String
+	public let mask: Int
+	public let name: String
+	public let subtype: String
+	public let type: String
 }

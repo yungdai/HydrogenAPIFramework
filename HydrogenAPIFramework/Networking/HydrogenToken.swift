@@ -8,13 +8,13 @@
 
 import Foundation
 
-struct HydrogenToken: Codable {
+public struct HydrogenToken: Codable {
     
-    let accessToken: String
-    let tokenType: String
-    let expiresIn: Int
-    let scope: String
-    let apps: String
+    public let accessToken: String
+    public let tokenType: String
+    public let expiresIn: Int
+    public let scope: String
+    public let apps: String
     
     enum CodingKeys: String, CodingKey {
         case accessToken = "access_token"

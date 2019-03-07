@@ -8,18 +8,21 @@
 
 import Foundation
 
-typealias Handler = () -> Void
+typealias FHealthCheckResponseCompletion = Result<FHCheckResponse, Error>
+typealias OAuthResponseCompletion = Result<Bool, Error>
 
 extension Encodable {
 	
 	func convertToParameters() -> [String: Any]? {
 		
 		do {
+            
 			let jsonEncoder = JSONEncoder()
 			let data = try jsonEncoder.encode(self)
 			let mappedData = try JSONSerialization.jsonObject(with: data, options: [.mutableContainers, .allowFragments]) as? [String : Any]
 			return mappedData
 		} catch {
+            
 			return nil
 		}
 	}

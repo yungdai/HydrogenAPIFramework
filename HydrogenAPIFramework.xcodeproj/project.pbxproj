@@ -11,7 +11,7 @@
 		1A3337E32223680100EE933D /* HydrogenAPIFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3337E22223680100EE933D /* HydrogenAPIFrameworkTests.swift */; };
 		1A3337E52223680100EE933D /* HydrogenAPIFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A3337D72223680100EE933D /* HydrogenAPIFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AE45E5F22236AF50000A7A1 /* HydrogenAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E5E22236AF50000A7A1 /* HydrogenAPIManager.swift */; };
-		1AE45E7D22236B460000A7A1 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E7C22236B460000A7A1 /* Utility.swift */; };
+		1AE45E7D22236B460000A7A1 /* UserDefaultsUtilitity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E7C22236B460000A7A1 /* UserDefaultsUtilitity.swift */; };
 		1AE45E7F22236B4C0000A7A1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E7E22236B4C0000A7A1 /* Extensions.swift */; };
 		1AE45E8022236B670000A7A1 /* NetworkServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E7822236B3E0000A7A1 /* NetworkServiceError.swift */; };
 		1AE45E8122236B670000A7A1 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E7922236B3E0000A7A1 /* Result.swift */; };
@@ -26,10 +26,13 @@
 		1AE45E8A22236C320000A7A1 /* LiquidityRatioExpenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E6922236B1D0000A7A1 /* LiquidityRatioExpenses.swift */; };
 		1AE45E8B22236C320000A7A1 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E6A22236B1D0000A7A1 /* Account.swift */; };
 		1AE45E8C22236C320000A7A1 /* LiquidityRatioLiabilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E6B22236B1D0000A7A1 /* LiquidityRatioLiabilities.swift */; };
-		1AE45E8F22236CA70000A7A1 /* FinancialHealthCheckData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E8E22236CA70000A7A1 /* FinancialHealthCheckData.swift */; };
+		1AE45E8F22236CA70000A7A1 /* FHCheckData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE45E8E22236CA70000A7A1 /* FHCheckData.swift */; };
 		1AE45E9022236D480000A7A1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A3337E42223680100EE933D /* Info.plist */; };
 		41E737AFC828260A8F6E7EBB /* Pods_HydrogenAPIFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D0FC2BA42E6355481F279A1 /* Pods_HydrogenAPIFrameworkTests.framework */; };
 		977CBA072A6FA61BC0C44B06 /* Pods_HydrogenAPIFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0006B026401A13A6FB903CA /* Pods_HydrogenAPIFramework.framework */; };
+		9F59C14922315EF200D52087 /* HydrogenAPIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F59C14822315EF200D52087 /* HydrogenAPIKeys.swift */; };
+		9F59C14C2231609C00D52087 /* HydrogenFrameworkErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F59C14B2231609C00D52087 /* HydrogenFrameworkErrors.swift */; };
+		9F59C14E2231654B00D52087 /* HydrogenURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F59C14D2231654B00D52087 /* HydrogenURLs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,14 +66,17 @@
 		1AE45E7622236B2C0000A7A1 /* HydrogenToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HydrogenToken.swift; sourceTree = "<group>"; };
 		1AE45E7822236B3E0000A7A1 /* NetworkServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkServiceError.swift; sourceTree = "<group>"; };
 		1AE45E7922236B3E0000A7A1 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
-		1AE45E7C22236B460000A7A1 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		1AE45E7C22236B460000A7A1 /* UserDefaultsUtilitity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsUtilitity.swift; sourceTree = "<group>"; };
 		1AE45E7E22236B4C0000A7A1 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		1AE45E8E22236CA70000A7A1 /* FinancialHealthCheckData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialHealthCheckData.swift; sourceTree = "<group>"; };
+		1AE45E8E22236CA70000A7A1 /* FHCheckData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHCheckData.swift; sourceTree = "<group>"; };
 		4B3CEE7C4A805FAA33004437 /* Pods-HydrogenAPIFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydrogenAPIFramework.debug.xcconfig"; path = "Target Support Files/Pods-HydrogenAPIFramework/Pods-HydrogenAPIFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		56AE458AA437A91C60224C25 /* Pods-HydrogenAPIFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydrogenAPIFrameworkTests.release.xcconfig"; path = "Target Support Files/Pods-HydrogenAPIFrameworkTests/Pods-HydrogenAPIFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
 		6D0FC2BA42E6355481F279A1 /* Pods_HydrogenAPIFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HydrogenAPIFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		928EC34EAC352A6103430889 /* Pods-HydrogenAPIFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydrogenAPIFrameworkTests.debug.xcconfig"; path = "Target Support Files/Pods-HydrogenAPIFrameworkTests/Pods-HydrogenAPIFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		994AAAB83275260137EB4AEE /* Pods-HydrogenAPIFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydrogenAPIFramework.release.xcconfig"; path = "Target Support Files/Pods-HydrogenAPIFramework/Pods-HydrogenAPIFramework.release.xcconfig"; sourceTree = "<group>"; };
+		9F59C14822315EF200D52087 /* HydrogenAPIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrogenAPIKeys.swift; sourceTree = "<group>"; };
+		9F59C14B2231609C00D52087 /* HydrogenFrameworkErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrogenFrameworkErrors.swift; sourceTree = "<group>"; };
+		9F59C14D2231654B00D52087 /* HydrogenURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrogenURLs.swift; sourceTree = "<group>"; };
 		B0006B026401A13A6FB903CA /* Pods_HydrogenAPIFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HydrogenAPIFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -129,10 +135,10 @@
 			children = (
 				1AE45E9122236E120000A7A1 /* Networking */,
 				1AE45E6022236B1D0000A7A1 /* Models */,
-				1AE45E7E22236B4C0000A7A1 /* Extensions.swift */,
+				1AE45E9222236EF00000A7A1 /* Extensions */,
 				1A3337D72223680100EE933D /* HydrogenAPIFramework.h */,
 				1A3337D82223680100EE933D /* Info.plist */,
-				1AE45E7C22236B460000A7A1 /* Utility.swift */,
+				1AE45E7C22236B460000A7A1 /* UserDefaultsUtilitity.swift */,
 			);
 			path = HydrogenAPIFramework;
 			sourceTree = "<group>";
@@ -149,9 +155,11 @@
 		1AE45E6022236B1D0000A7A1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9F59C14822315EF200D52087 /* HydrogenAPIKeys.swift */,
+				9F59C14A2231608A00D52087 /* Errors */,
 				1AE45E6222236B1D0000A7A1 /* Ratio Results Models */,
 				1AE45E6122236B1D0000A7A1 /* RatioTargets.swift */,
-				1AE45E8E22236CA70000A7A1 /* FinancialHealthCheckData.swift */,
+				1AE45E8E22236CA70000A7A1 /* FHCheckData.swift */,
 				1AE45E6822236B1D0000A7A1 /* FHCheckResponse.swift */,
 				1AE45E6A22236B1D0000A7A1 /* Account.swift */,
 			);
@@ -176,11 +184,28 @@
 			isa = PBXGroup;
 			children = (
 				1AE45E5E22236AF50000A7A1 /* HydrogenAPIManager.swift */,
-				1AE45E7822236B3E0000A7A1 /* NetworkServiceError.swift */,
 				1AE45E7922236B3E0000A7A1 /* Result.swift */,
 				1AE45E7622236B2C0000A7A1 /* HydrogenToken.swift */,
+				9F59C14D2231654B00D52087 /* HydrogenURLs.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		1AE45E9222236EF00000A7A1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1AE45E7E22236B4C0000A7A1 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9F59C14A2231608A00D52087 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				1AE45E7822236B3E0000A7A1 /* NetworkServiceError.swift */,
+				9F59C14B2231609C00D52087 /* HydrogenFrameworkErrors.swift */,
+			);
+			path = Errors;
 			sourceTree = "<group>";
 		};
 		A45BB563469DF4A79CC401B0 /* Pods */ = {
@@ -378,10 +403,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AE45E7D22236B460000A7A1 /* Utility.swift in Sources */,
+				1AE45E7D22236B460000A7A1 /* UserDefaultsUtilitity.swift in Sources */,
 				1AE45E8722236C260000A7A1 /* SavingsRatioGross.swift in Sources */,
 				1AE45E8C22236C320000A7A1 /* LiquidityRatioLiabilities.swift in Sources */,
-				1AE45E8F22236CA70000A7A1 /* FinancialHealthCheckData.swift in Sources */,
+				1AE45E8F22236CA70000A7A1 /* FHCheckData.swift in Sources */,
 				1AE45E8222236B670000A7A1 /* HydrogenToken.swift in Sources */,
 				1AE45E8622236C260000A7A1 /* RatioResultsProtocol.swift in Sources */,
 				1AE45E8422236C220000A7A1 /* AssetAllocationRatio.swift in Sources */,
@@ -389,8 +414,11 @@
 				1AE45E8122236B670000A7A1 /* Result.swift in Sources */,
 				1AE45E8022236B670000A7A1 /* NetworkServiceError.swift in Sources */,
 				1AE45E8922236C320000A7A1 /* FHCheckResponse.swift in Sources */,
+				9F59C14C2231609C00D52087 /* HydrogenFrameworkErrors.swift in Sources */,
 				1AE45E8322236C1E0000A7A1 /* RatioTargets.swift in Sources */,
+				9F59C14922315EF200D52087 /* HydrogenAPIKeys.swift in Sources */,
 				1AE45E8A22236C320000A7A1 /* LiquidityRatioExpenses.swift in Sources */,
+				9F59C14E2231654B00D52087 /* HydrogenURLs.swift in Sources */,
 				1AE45E8522236C260000A7A1 /* SavingsRatioNet.swift in Sources */,
 				1AE45E7F22236B4C0000A7A1 /* Extensions.swift in Sources */,
 				1AE45E5F22236AF50000A7A1 /* HydrogenAPIManager.swift in Sources */,

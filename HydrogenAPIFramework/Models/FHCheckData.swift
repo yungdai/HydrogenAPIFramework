@@ -1,5 +1,5 @@
 //
-//  FinancialHealthCheck.swift
+//  FHCheckData.swift
 //  HydrogenAPIFramework
 //
 //  Created by Yung Dai on 2019-02-20.
@@ -8,16 +8,16 @@
 
 import Foundation
 
-struct FinancialHealthCheckData: Codable {
+public struct FHCheckData: Codable {
 
-	let liquidAssets: Float
-	let nonLiquidAssets: Float
-	let shortTermLiabilities: Float
-	let totalLiabilities: Float
-	let grossAnnualIncome: Float
-	let netMonthlyIncome: Float
-	let monthlyExpense: Float
-	let ratioTargets: RatioTargets
+	public let liquidAssets: Float
+	public let nonLiquidAssets: Float
+	public let shortTermLiabilities: Float
+	public let totalLiabilities: Float
+	public let grossAnnualIncome: Float
+	public let netMonthlyIncome: Float
+	public let monthlyExpense: Float
+	public let ratioTargets: RatioTargets
 	
 	enum CodingKeys: String, CodingKey {
 		
@@ -32,13 +32,13 @@ struct FinancialHealthCheckData: Codable {
 	}
 }
 
-extension FinancialHealthCheckData {
+extension FHCheckData {
     
-    static func getTestData() -> FinancialHealthCheckData {
+    public static func getTestData() -> FHCheckData {
         
         let ratioTargets = RatioTargets.getTestData()
         
-        let financialData = FinancialHealthCheckData.init(liquidAssets: 5000,
+        let financialData = FHCheckData.init(liquidAssets: 5000,
                                                           nonLiquidAssets: 10000,
                                                           shortTermLiabilities: 1100,
                                                           totalLiabilities: 1400,

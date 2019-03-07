@@ -8,14 +8,14 @@
 
 import Foundation
 
-struct RatioTargets: Codable {
+public struct RatioTargets: Codable {
 	
-	let liquidityRatioExpenses: Float
-	let liquidityRatioLiabilities: Float
-	let currentRatio: Float
-	let assetAllocationRatio: Float
-	let savingsRatioGross: Float
-	let savingsRatioNet: Float
+	public let liquidityRatioExpenses: Float
+	public let liquidityRatioLiabilities: Float
+	public let currentRatio: Float
+	public let assetAllocationRatio: Float
+	public let savingsRatioGross: Float
+	public let savingsRatioNet: Float
 	
     enum CodingKeys: String, CodingKey {
 		case liquidityRatioExpenses = "liquidity_ratio_expenses"
@@ -29,7 +29,7 @@ struct RatioTargets: Codable {
 
 extension RatioTargets {
     
-    static func getTestData() -> RatioTargets {
+    public static func getTestData() -> RatioTargets {
         
         let ratioTargets = RatioTargets.init(liquidityRatioExpenses: 2.5,
                                              liquidityRatioLiabilities: 0.1,

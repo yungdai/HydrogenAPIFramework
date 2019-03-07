@@ -8,17 +8,17 @@
 
 import Foundation
 
-protocol RatioResultsProtocol {
+public protocol RatioResultsProtocol {
     
-    var ratioResult: Float { get set }
-    var pass: Bool { get set }
+	var ratioResult: Float { get set }
+	var pass: Bool { get set }
     var percentileGrade: Float { get set }
     func title() -> String
 }
 
 extension RatioResultsProtocol {
     
-    func getRatioResultsDescription(for title: String) -> String {
+    public func getRatioResultsDescription(for title: String) -> String {
         
         let description = """
         \(title):

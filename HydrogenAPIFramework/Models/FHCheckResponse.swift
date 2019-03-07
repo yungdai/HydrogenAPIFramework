@@ -8,18 +8,18 @@
 
 import Foundation
 
-struct FHCheckResponse: Decodable {
+public struct FHCheckResponse: Codable {
     
-	let liquidityRatioExpenses: LiquidityRatioExpenses?
-	let liquidityRatioLiabilities: LiquidityRatioLiabilities?
-	let currentRatio: CurrentRatio?
-	let assetAllocationRatio: AssetAllocationRatio?
-	let savingsRatioGross: SavingsRatioGross?
-	let savingsRatioNet: SavingsRatioNet?
-	let totalAssets: Float
-	let netWorth: Float
-	let grossMonthlyIncome: Float
-	let monthlySurplus: Float?
+	public let liquidityRatioExpenses: LiquidityRatioExpenses?
+	public let liquidityRatioLiabilities: LiquidityRatioLiabilities?
+	public let currentRatio: CurrentRatio?
+	public let assetAllocationRatio: AssetAllocationRatio?
+	public let savingsRatioGross: SavingsRatioGross?
+	public let savingsRatioNet: SavingsRatioNet?
+	public let totalAssets: Float
+	public let netWorth: Float
+	public let grossMonthlyIncome: Float
+	public let monthlySurplus: Float?
 	
 	enum CodingKeys: String, CodingKey {
 		
@@ -38,7 +38,7 @@ struct FHCheckResponse: Decodable {
 
 extension FHCheckResponse {
     
-    var showValidResponses: String {
+    public var showValidResponses: String {
    
         var returnedRatioResults = [RatioResultsProtocol]()
         

@@ -8,11 +8,11 @@
 
 import Foundation
 
-struct SavingsRatioGross: Decodable, RatioResultsProtocol {
+public struct SavingsRatioGross: Codable, RatioResultsProtocol {
     
-    var ratioResult: Float
-    var pass: Bool
-    var percentileGrade: Float
+    public var ratioResult: Float
+    public var pass: Bool
+    public var percentileGrade: Float
     
     enum CodingKeys: String, CodingKey {
         
@@ -21,14 +21,14 @@ struct SavingsRatioGross: Decodable, RatioResultsProtocol {
         case percentileGrade = "percentile_grade"
     }
     
-    func title() -> String {
+    public func title() -> String {
         return "Savings Ratio Gross"
     }
 }
 
 extension SavingsRatioGross: CustomStringConvertible {
     
-    var description: String {
+    public var description: String {
         let description = self.getRatioResultsDescription(for: title())
         return description
     }
